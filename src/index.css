@@ -11,3 +11,112 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.currency-converter{
+  background-color: rgb(245, 243, 239);
+  width: 300px;
+  padding: 16px;
+  margin: 5px 0 5px 5px;
+  box-shadow: 12px 2px 0px 0px rgba(0,0,0,0,50) inset;
+-webkit-box-shadow: 12px 2px 0px 0px rgba(0,0,0,0.77) inset;
+-moz-box-shadow: 12px 2px 0px 0px rgba(0,0,0,0.77) inset;
+}
+.convert-btn{
+  display: flex;
+  flex-direction: column;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float: right;
+  margin: 5px;
+}
+.convert-btn:focus{
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.convert-btn:hover{
+  background-color: #405cf5;
+  color: white;
+}
+.news-feed{
+  text-align: center;
+  background-color: #303030;
+  padding: 0.6rem 0.3rem;
+  margin: 5px 0 5px 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 400px;
+  min-width: 300px;
+
+}
+.head-news{
+  color: #d5d5dd;
+  background-color: #424245;
+  padding: 2px;
+  text-align: center;
+}
+.exchange-rate{
+ background-color: #fff;
+ padding: 2px;
+ margin: 30px;
+ text-align: center;
+ box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px black;
+
+}
+.app-container{
+  display: flex;
+}
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
+.form__input:focus{
+  border: #405cf5;
+  color: #405cf5;
+}
+a{
+  text-decoration: none;
+  color: rgb(158, 152, 152);
+}
+a:visited{
+  color: rgb(82, 79, 79);
+}
+a:hover{
+  color: #d5d5dd;
+}
+a:active{
+  text-decoration: none;
+  color: bisque;
+}
+
+
+
